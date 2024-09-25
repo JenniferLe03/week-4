@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: red;
+    }
+} /*nesting items, work biggest size to smallest*/ 
+
+@media screen and (max-width:320px){
+    body{
+        background-color: yellow;
+        color: black;
+    }
+}
